@@ -23,16 +23,6 @@
         "runtime": {
           "bin/placeholder/Androtomist.dll": {}
         }
-      },
-      "APKProfiler/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/APKProfiler.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/APKProfiler.dll": {}
-        }
       }
     }
   },
@@ -72,16 +62,10 @@
       "type": "project",
       "path": "../Androtomist/Androtomist.csproj",
       "msbuildProject": "../Androtomist/Androtomist.csproj"
-    },
-    "APKProfiler/1.0.0": {
-      "type": "project",
-      "path": "../APKProfiler/APKProfiler.csproj",
-      "msbuildProject": "../APKProfiler/APKProfiler.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "APKProfiler >= 1.0.0",
       "Androtomist >= 1.0.0"
     ]
   },
@@ -92,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Runner\\Runner.csproj",
+      "projectUniqueName": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Runner\\Runner.csproj",
       "projectName": "Runner",
-      "projectPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Runner\\Runner.csproj",
+      "projectPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Runner\\Runner.csproj",
       "packagesPath": "C:\\Users\\babou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Runner\\obj\\",
+      "outputPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Runner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -116,11 +100,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\Androtomist.csproj": {
-              "projectPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\Androtomist.csproj"
-            },
-            "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\APKProfiler\\APKProfiler.csproj": {
-              "projectPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\APKProfiler\\APKProfiler.csproj"
+            "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj": {
+              "projectPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj"
             }
           }
         }

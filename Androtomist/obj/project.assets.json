@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\Androtomist.csproj",
+      "projectUniqueName": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj",
       "projectName": "Androtomist",
-      "projectPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\Androtomist.csproj",
+      "projectPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj",
       "packagesPath": "C:\\Users\\babou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\obj\\",
+      "outputPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

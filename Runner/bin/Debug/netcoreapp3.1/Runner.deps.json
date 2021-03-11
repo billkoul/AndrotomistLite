@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Runner/1.0.0": {
         "dependencies": {
-          "APKProfiler": "1.0.0",
-          "Androtomist": "1.0.0"
+          "Androtomist": "1.0.0",
+          "APKProfiler": "1.0.0.0"
         },
         "runtime": {
           "Runner.dll": {}
@@ -31,9 +31,12 @@
           "Androtomist.dll": {}
         }
       },
-      "APKProfiler/1.0.0": {
+      "APKProfiler/1.0.0.0": {
         "runtime": {
-          "APKProfiler.dll": {}
+          "APKProfiler.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -56,8 +59,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "APKProfiler/1.0.0": {
-      "type": "project",
+    "APKProfiler/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

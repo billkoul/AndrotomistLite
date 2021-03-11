@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2VST0bfHllrpcf/ygNDzAajN1Blw0IcermkYvRA2roKW8PwbP/7P6yR0Q32UWxycYeOubU/fr9OrG3GfBdj/lw==",
+  "dgSpecHash": "NOgGndvxe5uA7B5vXF+P6curgdFf2/kuXBtCBP7qYQKOWbC1hQHsuKjQ1q/h43VZ27mrtImNFGPjlSItLI3bkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Runner\\Runner.csproj",
+  "projectFilePath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Runner\\Runner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babou\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
