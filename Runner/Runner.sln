@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Runner", "Runner.csproj", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Androtomist", "..\Androtomist\Androtomist.csproj", "{78B2A091-E946-4A19-9E6B-868528E86D4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APKProfiler", "..\APKProfiler\APKProfiler.csproj", "{8B8566E9-21D1-4E02-AF26-F86109B19C5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{78B2A091-E946-4A19-9E6B-868528E86D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B2A091-E946-4A19-9E6B-868528E86D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B2A091-E946-4A19-9E6B-868528E86D4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B8566E9-21D1-4E02-AF26-F86109B19C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B8566E9-21D1-4E02-AF26-F86109B19C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B8566E9-21D1-4E02-AF26-F86109B19C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B8566E9-21D1-4E02-AF26-F86109B19C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
