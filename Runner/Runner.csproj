@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Androtomist\Androtomist.csproj" />
+    <ProjectReference Include="..\APKProfiler\APKProfiler.csproj" />
   </ItemGroup>
 
 	<ItemGroup>

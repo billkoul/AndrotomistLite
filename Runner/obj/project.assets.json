@@ -23,6 +23,16 @@
         "runtime": {
           "bin/placeholder/Androtomist.dll": {}
         }
+      },
+      "APKProfiler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/APKProfiler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APKProfiler.dll": {}
+        }
       }
     }
   },
@@ -62,10 +72,16 @@
       "type": "project",
       "path": "../Androtomist/Androtomist.csproj",
       "msbuildProject": "../Androtomist/Androtomist.csproj"
+    },
+    "APKProfiler/1.0.0": {
+      "type": "project",
+      "path": "../APKProfiler/APKProfiler.csproj",
+      "msbuildProject": "../APKProfiler/APKProfiler.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "APKProfiler >= 1.0.0",
       "Androtomist >= 1.0.0"
     ]
   },
@@ -102,6 +118,9 @@
           "projectReferences": {
             "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj": {
               "projectPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\Androtomist\\Androtomist.csproj"
+            },
+            "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\APKProfiler\\APKProfiler.csproj": {
+              "projectPath": "C:\\Users\\babou\\Documents\\mine\\Lite\\AndrotomistLite\\APKProfiler\\APKProfiler.csproj"
             }
           }
         }

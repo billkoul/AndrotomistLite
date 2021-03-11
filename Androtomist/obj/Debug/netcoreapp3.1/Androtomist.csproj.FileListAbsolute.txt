@@ -18,7 +18,6 @@ C:\Users\babou\Documents\mine\AndrotomistLite\Androtomist\obj\Debug\netcoreapp3.
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\bin\Debug\netcoreapp3.1\Androtomist.deps.json
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\bin\Debug\netcoreapp3.1\Androtomist.dll
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\bin\Debug\netcoreapp3.1\Androtomist.pdb
-C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\obj\Debug\netcoreapp3.1\Androtomist.csprojAssemblyReference.cache
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\obj\Debug\netcoreapp3.1\Androtomist.AssemblyInfoInputs.cache
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\obj\Debug\netcoreapp3.1\Androtomist.AssemblyInfo.cs
 C:\Users\babou\Documents\mine\Lite\AndrotomistLite\Androtomist\obj\Debug\netcoreapp3.1\Androtomist.csproj.CoreCompileInputs.cache
