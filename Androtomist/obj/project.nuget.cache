@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L+4JecahenZGHeEgAjd7+0euuV/pOQijQr9vfgIbiwCyIMVvi3QDQo6hPtyblNhFLt4dCKaVWnnGa4St7UGsag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\babou\\Documents\\mine\\AndrotomistLite\\Androtomist\\Androtomist.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\babou\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

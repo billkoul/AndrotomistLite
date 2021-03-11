@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JSiFWQByMnauxndCbJHk9YcZ9uoTE4sr1BmpbQZvVXtb2tBchSE+SABBRLrvbYW96epHvCIvVA81a6OUDO1gGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\babou\\Documents\\mine\\APKProfiler-master\\TestingConsoleApp\\TestingConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\babou\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\3.1.8\\microsoft.netcore.app.runtime.osx-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\babou\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\3.1.8\\microsoft.aspnetcore.app.runtime.osx-x64.3.1.8.nupkg.sha512",
+    "C:\\Users\\babou\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\3.1.8\\microsoft.netcore.app.host.osx-x64.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
