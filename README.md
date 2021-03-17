@@ -11,3 +11,9 @@ Static analysis is ready-to-go with Apktool (https://ibotpeaches.github.io/Apkto
 Dynamic instrumentation requires extra configuration in the appsettings.json file, such as the android platform tools folder path, the frida folder path, instrumentation script path, and remote address & port to allow connections with network VMs<br>
 
 This is a lightweight tool and is better suited for smaller projects that don't require a database connection.
+
+Licence
+Androtomist's source code is offered under the European Union Public Licence (https://ec.europa.eu/info/european-union-public-licence_en)
+
+Please cite our paper:
+Kouliaridis, V.; Kambourakis, G.; Geneiatakis, D.; Potha, N. Two Anatomists Are Better than One—Dual-Level Android Malware Detection. Symmetry 2020, 12, 1128.
