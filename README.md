@@ -1,5 +1,5 @@
 # AndrotomistLite
-A lightweight CLI version of the Androtomist tool (https://github.com/billkoul/Androtomist, Androtomist.com)
+A lightweight CLI version of the Androtomist tool (https://github.com/billkoul/Androtomist, Androtomist.com) which performs Android .APK analysis.
 
 AndrotomistLite consists of a console application written in .NET Core 3.1 which allows:
 
