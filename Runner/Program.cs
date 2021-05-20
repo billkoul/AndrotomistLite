@@ -17,7 +17,9 @@ namespace TestingConsoleApp
                                   "\n2. Initialize mass static analysis" +
                                   "\n3. Initialize dynamic analysis " +
                                   "\n0. Exit\n");
-                choice = Convert.ToInt32(Console.ReadLine());
+                
+                int.TryParse(Console.ReadLine(), out choice);
+                
                 if (choice == 1)
                 {
                     Console.WriteLine("Give path to Apk (with apk name included):");
