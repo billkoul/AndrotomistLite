@@ -41,7 +41,9 @@ namespace TestingConsoleApp
                         Console.WriteLine("\n1. Write manifest information to file" +
                                           "\n2. Write smali information to file" +
                                           "\n0. Go back to previous menu\n");
-                        innerChoice = Convert.ToInt32(Console.ReadLine());
+                        innerChoice = -1;
+                        int.TryParse(Console.ReadLine(), out innerChoice);
+                        
                         if (innerChoice == 1)
                         {
                             decompiler.WriteManifestInfoToFile();
@@ -56,10 +58,7 @@ namespace TestingConsoleApp
                             break;
                         }
                         else
-                        {
                             Console.WriteLine("Invalid input. Please retry!");
-                            innerChoice = Convert.ToInt32(Console.ReadLine());
-                        }
                     }
                     Console.WriteLine("Time elapsed for the parsing of smali files: " + decompiler.Smali.Stopwatch.Elapsed.TotalSeconds);
 
