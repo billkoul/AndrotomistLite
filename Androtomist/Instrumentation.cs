@@ -11,12 +11,13 @@ namespace Androtomist
     public class Instrumentation
     {
         protected Terminal t1;
-        private static Settings settings = new Settings();
-        private string toolsPath = settings.ToolsPath;
-        private string remoteAddr = settings.RemoteAddr;
-        private string fridaPath = settings.FridaPath;
-        private string script = settings.Script;
-        private string events = settings.Events;
+        private static readonly Settings settings = new Settings();
+        private readonly string toolsPath = settings.ToolsPath;
+        private readonly string remoteAddr = settings.RemoteAddr;
+        private readonly string fridaPath = settings.FridaPath;
+        private readonly string fridaServer = settings.FridaServer;
+        private readonly string script = settings.Script;
+        private readonly int events = settings.Events;
 
         public string FilePath;
         public string PackageName;
@@ -38,9 +39,9 @@ namespace Androtomist
         {
 
             _ = t1.cmd("cd /d " + toolsPath + " && adb.exe connect " + remoteAddr);
-            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe push ../frida-server-12.6.23-android-x86_64 /data/local/tmp");
-            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe shell \"su -c 'chmod 755 /data/local/tmp/frida-server-12.6.23-android-x86_64'\"");
-            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe shell \"su -c '/data/local/tmp/frida-server-12.6.23-android-x86_64 >/dev/null 2>&1 &'\"");
+            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe push " + fridaPath + "/" + fridaServer + " /data/local/tmp");
+            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe shell \"su -c 'chmod 755 /data/local/tmp/" + fridaServer + "'\"");
+            _ = t1.cmd("cd /d " + toolsPath + " && adb.exe shell \"su -c '/data/local/tmp/" + fridaServer + " >/dev/null 2>&1 &'\"");
 
         }
 
@@ -63,7 +64,7 @@ namespace Androtomist
             Parallel.Invoke(
                 () =>
                 {
-                    data += t1.cmd("cd " + fridaPath + " && frida -U -l " + script + " " + PackageName, 60000);
+                    data += t1.cmd("cd " + fridaPath + " && frida -U -l " + script + " " + PackageName, events);
                 },
                 () =>
                 {
@@ -71,7 +72,7 @@ namespace Androtomist
                 },
                 () =>
                 {
-                    data += t1.cmd("cd " + fridaPath + " && frida -U -l " + script + " " + PackageName, 60000);
+                    data += t1.cmd("cd " + fridaPath + " && frida -U -l " + script + " " + PackageName, events);
                 }
             );
             #endregion

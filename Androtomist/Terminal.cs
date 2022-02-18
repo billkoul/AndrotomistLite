@@ -7,10 +7,11 @@ namespace Androtomist
 {
     public class Terminal
     {
+        private static readonly Settings settings = new Settings();
         //fill in the VB name of the Android OS to use (ie Android 7.1) and the snapshot of the clean device to restore (ie Snapshot 3)
-        private string startVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe startvm \"Android 7.1\"";// use --type headless after debug to not show the vm window (faster) 
-        private string poweroffVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe controlvm \"Android 7.1\" poweroff";
-        private string restoreVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe snapshot \"Android 7.1\" restore \"Snapshot 3\"";
+        private string startVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe startvm \""+ settings.AndroidImage + "\"";// use --type headless after debug to not show the vm window (faster) 
+        private string poweroffVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe controlvm \""+ settings.AndroidImage + "\" poweroff";
+        private string restoreVM = "cd C:\\Program Files\\Oracle\\VirtualBox && VBoxManage.exe snapshot \""+ settings.AndroidImage + "\" restore \"Snapshot 3\"";
         public bool initialize;
 
         public Terminal(bool novm = false)

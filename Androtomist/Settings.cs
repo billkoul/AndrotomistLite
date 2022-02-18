@@ -11,8 +11,10 @@ namespace Androtomist
         public string ToolsPath { get; set; }
         public string RemoteAddr { get; set; }
         public string FridaPath { get; set; }
+        public string FridaServer { get; set; }
         public string Script { get; set; }
-        public string Events { get; set; }
+        public int Events { get; set; }
+        public string AndroidImage { get; set; }
         public Settings()
         {
             try
@@ -24,8 +26,10 @@ namespace Androtomist
                 ToolsPath = jAppSettings["Settings"]["ToolsPath"].ToString();
                 RemoteAddr = jAppSettings["Settings"]["RemoteAddr"].ToString();
                 FridaPath = jAppSettings["Settings"]["FridaPath"].ToString();
+                FridaServer = jAppSettings["Settings"]["FridaServer"].ToString();
                 Script = jAppSettings["Settings"]["Script"].ToString();
-                Events = jAppSettings["Settings"]["Events"].ToString();
+                Events = int.Parse(jAppSettings["Settings"]["Events"].ToString());
+                AndroidImage = jAppSettings["Settings"]["AndroidImage"].ToString();
             }
             catch { }
         }

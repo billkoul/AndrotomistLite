@@ -1,6 +1,5 @@
 ﻿using APKProfiler;
 using System;
-using System.ComponentModel.Design;
 using System.IO;
 using Androtomist;
 
