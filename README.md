@@ -6,7 +6,7 @@ AndrotomistLite consists of a console application written in .NET Core 3.1 which
 1. Static analysis of .apk files using <a href="https://github.com/Giannisgre/APKProfiler">APKProfiler</a><br>
 2. Dynamic instrumentation using Frida<br>
 
-Static analysis requires Apktool (https://ibotpeaches.github.io/Apktool/), just place the apktool in the same folder as the Runner.exe, well as the .bat file to call Apktool in Windows (https://github.com/iBotPeaches/Apktool/blob/master/scripts/windows/apktool.bat). Apktool requires Java. <br>
+Static analysis requires Apktool (https://ibotpeaches.github.io/Apktool/), just place the apktool in the same folder as the Runner.exe, well as the .bat file to call Apktool in Windows (https://github.com/iBotPeaches/Apktool/blob/master/scripts/windows/apktool.bat). Latest test using version 2.7.0. Apktool requires Java. <br>
 
 Dynamic instrumentation requires extra configuration in the appsettings.json file, such as the android platform tools folder path, the frida folder path, instrumentation script path, and remote address & port to allow connections with network VMs<br>
 
