@@ -1,0 +1,28 @@
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.deps.json
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.pdb
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfoInputs.cache
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfo.cs
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.pdb
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csproj.CoreCompileInputs.cache
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.deps.json
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.pdb
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csprojAssemblyReference.cache
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfoInputs.cache
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfo.cs
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.pdb
+C:\Users\billkoul\Downloads\APKProfiler\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csproj.CoreCompileInputs.cache
+C:\Users\Grev\Documents\Visual Studio 2019\Projects\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csproj.AssemblyReference.cache
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.deps.json
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\bin\Debug\netcoreapp3.1\APKProfiler.pdb
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csproj.AssemblyReference.cache
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfoInputs.cache
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.AssemblyInfo.cs
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.csproj.CoreCompileInputs.cache
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.dll
+C:\Users\kouliva\Downloads\AndrotomistLite\src\APKProfiler\obj\Debug\netcoreapp3.1\APKProfiler.pdb

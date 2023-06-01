@@ -14,7 +14,8 @@ namespace TestingConsoleApp
             {
                 Console.WriteLine("\n1. Initialize static analysis" +
                                   "\n2. Initialize mass static analysis" +
-                                  "\n3. Initialize dynamic analysis " +
+                                  "\n3. Initialize taint analysis " +
+                                  "\n4. Initialize dynamic instrumentation (beta) " +
                                   "\n0. Exit\n");
                 
                 int.TryParse(Console.ReadLine(), out choice);
@@ -94,16 +95,27 @@ namespace TestingConsoleApp
                     Console.WriteLine("Give path to Apk (with apk name included):");
                     string pathToApk = Console.ReadLine();
 
+                    TaintAnalysis taintAnalyis = new TaintAnalysis(pathToApk);
+
+                    taintAnalyis.Run();
+                    taintAnalyis.WriteTaintInfoToFile();
+
+                }
+                else if (choice == 4)
+                {
+                    Console.WriteLine("Give path to Apk (with apk name included):");
+                    string pathToApk = Console.ReadLine();
+
                     Decompiler decompiler = new Decompiler();   //Create decompiler object to handle all functionality
                     decompiler.DecompileWithApktool(pathToApk); //Decompile the apk
 
-                    Instrumentation instr = new Instrumentation
+                    Instrumentation instrumentation = new Instrumentation
                     {
-                        FilePath = pathToApk, 
+                        FilePath = pathToApk,
                         PackageName = decompiler.Manifest.PackageName
                     };
 
-                    var result = instr.Analyze(); 
+                    var result = instrumentation.Analyze();
                     Console.Write(result);
 
                 }
