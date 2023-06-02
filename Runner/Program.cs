@@ -1,4 +1,4 @@
-﻿using APKProfiler;
+using APKProfiler;
 using System;
 using System.IO;
 using Androtomist;
@@ -12,17 +12,18 @@ namespace TestingConsoleApp
             int choice = -1; int innerChoice = -1;
             while (choice != 0)
             {
-                Console.WriteLine("\n1. Initialize static analysis" +
-                                  "\n2. Initialize mass static analysis" +
+                Console.WriteLine("\n1. Initialize code analysis" +
+                                  "\n2. Initialize bulk code analysis" +
                                   "\n3. Initialize taint analysis " +
-                                  "\n4. Initialize dynamic instrumentation (beta) " +
+                                  "\n4. Initialize bulk taint analysis " +
+                                  "\n5. Initialize dynamic instrumentation (beta) " +
                                   "\n0. Exit\n");
                 
                 int.TryParse(Console.ReadLine(), out choice);
                 
                 if (choice == 1)
                 {
-                    Console.WriteLine("Give path to Apk (with apk name included):");
+                    Console.WriteLine("Give path to Apk (with apk name included): ");
                     string pathToApk = Console.ReadLine();
                     Decompiler decompiler = new Decompiler();   //Create decompiler object to handle all functionality
                     decompiler.DecompileWithApktool(pathToApk); //Decompile the apk
@@ -67,7 +68,7 @@ namespace TestingConsoleApp
                 }
                 else if (choice == 2)
                 {
-                    Console.WriteLine("Give folder path for mass analysis");
+                    Console.WriteLine("Enter folder path for bulk static analysis: ");
                     string targetDirectory = Console.ReadLine();
 
                     string[] fileEntries = Directory.GetFiles(targetDirectory);
@@ -92,7 +93,7 @@ namespace TestingConsoleApp
                 }
                 else if (choice == 3)
                 {
-                    Console.WriteLine("Give path to Apk (with apk name included):");
+                    Console.WriteLine("Enter path to Apk (with apk name included): ");
                     string pathToApk = Console.ReadLine();
 
                     TaintAnalysis taintAnalyis = new TaintAnalysis(pathToApk);
@@ -103,7 +104,24 @@ namespace TestingConsoleApp
                 }
                 else if (choice == 4)
                 {
-                    Console.WriteLine("Give path to Apk (with apk name included):");
+                    Console.WriteLine("Enter folder path for bulk taint analysis: ");
+                    string targetDirectory = Console.ReadLine();
+
+                    string[] fileEntries = Directory.GetFiles(targetDirectory);
+
+                    foreach (string pathToApk in fileEntries)
+                    {
+
+                        TaintAnalysis taintAnalyis = new TaintAnalysis(pathToApk);
+
+                        taintAnalyis.Run();
+                        taintAnalyis.WriteTaintInfoToFile();
+                    }
+
+                }
+                else if (choice == 5)
+                {
+                    Console.WriteLine("Enter path to Apk (with apk name included): ");
                     string pathToApk = Console.ReadLine();
 
                     Decompiler decompiler = new Decompiler();   //Create decompiler object to handle all functionality
