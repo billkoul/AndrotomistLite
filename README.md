@@ -3,7 +3,7 @@ A lightweight CLI version of the Androtomist tool (https://github.com/billkoul/A
 
 AndrotomistLite consists of a console application written in .NET Core 3.1 which allows:
 
-1. Static analysis of .apk files using <a href="https://github.com/Giannisgre/APKProfiler">APKProfiler</a><br>
+1. Code analysis of .apk files using ApkTool and <a href="https://github.com/Giannisgre/APKProfiler">APKProfiler</a><br>
 2. Taint analysis using pyflowdroid<br>
 3. Dynamic instrumentation using Frida<br>
 
