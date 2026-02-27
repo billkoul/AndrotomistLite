@@ -3,11 +3,11 @@ A lightweight CLI version of the Androtomist tool (https://github.com/billkoul/A
 
 AndrotomistLite consists of a console application written in .NET Core 3.1 which allows:
 
-1. Code analysis of .apk files using <a href="https://ibotpeaches.github.io/Apktool/">ApkTool</a> and <a href="https://github.com/Giannisgre/APKProfiler">APKProfiler</a><br>
+1. Code analysis of .apk files using <a href="https://apktool.org/docs/install/">ApkTool</a> and <a href="https://github.com/Giannisgre/APKProfiler">APKProfiler</a><br>
 2. Taint analysis using <a href="https://github.com/gvieralopez/pyFlowDroid">pyflowdroid</a><br>
 3. Dynamic instrumentation using <a href="https://github.com/frida">Frida</a><br>
 
-Static analysis requires Apktool (https://ibotpeaches.github.io/Apktool/), just place the apktool in the same folder as the Runner.exe, well as the .bat file to call Apktool in Windows (https://github.com/iBotPeaches/Apktool/blob/master/scripts/windows/apktool.bat). Latest test using version 2.7.0. Apktool requires Java. <br>
+Static analysis requires Apktool (https://apktool.org/docs/install/). Download the latest version of the apktool, rename it to apktool.jar and place it in the same folder as the Runner.exe (e.g., while debugging Runner/bin/debug/net10.0), well as the .bat file to call Apktool in Windows. Apktool requires Java. After installing Java it is recommended to add it in the Path (e.g., for windows, WIN+R -> sysdm.cpl -> System Properties -> Advanced -> Environment Variables -> System Variables -> Edit Path -> Add -> Add ONLY the folder path to Java’s bin directory, e.g., C:\Program Files\Java\jdk-x.x.x\bin) <br>
 
 Taint analysis requires installation of pyflowdroid:<br>
 ```

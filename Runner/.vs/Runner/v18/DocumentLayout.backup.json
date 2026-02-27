@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kivel\\Downloads\\AndrotomistLite\\Runner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5BA46B-0715-4EE3-8984-29688A080A6E}|..\\APKProfiler\\APKProfiler.csproj|c:\\users\\kivel\\downloads\\androtomistlite\\apkprofiler\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903C0241-0C59-427D-B977-614E533A27F2}|Runner.csproj|c:\\users\\kivel\\downloads\\androtomistlite\\runner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903C0241-0C59-427D-B977-614E533A27F2}|Runner.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Decompiler.cs",
+              "DocumentMoniker": "C:\\Users\\kivel\\Downloads\\AndrotomistLite\\APKProfiler\\Decompiler.cs",
+              "RelativeDocumentMoniker": "..\\APKProfiler\\Decompiler.cs",
+              "ToolTip": "C:\\Users\\kivel\\Downloads\\AndrotomistLite\\APKProfiler\\Decompiler.cs",
+              "RelativeToolTip": "..\\APKProfiler\\Decompiler.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA/wEEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:38:28.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kivel\\Downloads\\AndrotomistLite\\Runner\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kivel\\Downloads\\AndrotomistLite\\Runner\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA3wFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:32:46.974Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
